@@ -65,24 +65,31 @@ namespace Popovv
         }
         private void X(string TestClass, int i)
         {
-            switch (TestClass)
+            if (i < 6)
             {
-                case ("science"):
-                    i++;
-                    TextTb.Text = test.Sciense[i].Quetion;
-                    Button1.Content = test.Sciense[i].Right;
-                    Button2.Content = test.Sciense[i].Wrong;
-                    break;
-                case ("med"):
-                    TextTb.Text = test.Med[i].Quetion;
-                    Button1.Content = test.Med[i].Right;
-                    Button2.Content = test.Med[i].Wrong;
-                    break;
-                case ("it"):
-                    TextTb.Text = test.It[i].Quetion;
-                    Button1.Content = test.It[i].Right;
-                    Button2.Content = test.It[i].Wrong;
-                    break;
+                switch (TestClass)
+                {
+                    case ("science"):
+                        i++;
+                        TextTb.Text = test.Sciense[i].Quetion;
+                        Button1.Content = test.Sciense[i].Right;
+                        Button2.Content = test.Sciense[i].Wrong;
+                        break;
+                    case ("med"):
+                        TextTb.Text = test.Med[i].Quetion;
+                        Button1.Content = test.Med[i].Right;
+                        Button2.Content = test.Med[i].Wrong;
+                        break;
+                    case ("it"):
+                        TextTb.Text = test.It[i].Quetion;
+                        Button1.Content = test.It[i].Right;
+                        Button2.Content = test.It[i].Wrong;
+                        break;
+                }
+            }
+            else
+            {
+                Environment.Exit(0);
             }
         }
     }
