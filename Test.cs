@@ -20,67 +20,72 @@ namespace Popovv
             Sciense.Add(quetions);
 
             Quetions quetion1 = new Quetions();
-            quetions.Quetion = "Имя Маска";
-            quetions.Right = "Илон";
-            quetions.Wrong = "Саня";
+            quetion1.Quetion = "Имя Маска";
+            quetion1.Right = "Илон";
+            quetion1.Wrong = "Саня";
             Sciense.Add(quetion1);
 
             Quetions quetions2 = new Quetions();
-            quetions.Quetion = "Н. Тесла это...";
-            quetions.Right = "Ученый";
-            quetions.Wrong = "Жмых";
+            quetions2.Quetion = "Н. Тесла это...";
+            quetions2.Right = "Ученый";
+            quetions2.Wrong = "Жмых";
             Sciense.Add(quetions2);
 
             Quetions quetions3 = new Quetions();
-            quetions.Quetion = "Что такое V";
-            quetions.Right = "Вольтаж";
-            quetions.Wrong = "Растояние";
+            quetions3.Quetion = "Что такое V";
+            quetions3.Right = "Вольтаж";
+            quetions3.Wrong = "Растояние";
             Sciense.Add(quetions3);
 
             Quetions quetion4 = new Quetions();
-            quetions.Quetion = "2 + 2 = ";
-            quetions.Right = "4";
-            quetions.Wrong = "5";
+            quetion4.Quetion = "2 + 2 = ";
+            quetion4.Right = "4";
+            quetion4.Wrong = "5";
             Sciense.Add(quetion4);
 
             Quetions quetion5 = new Quetions();
-            quetions.Quetion = "9 чи 10";
-            quetions.Right = "9";
-            quetions.Wrong = "10";
+            quetion5.Quetion = "9 чи 10";
+            quetion5.Right = "9";
+            quetion5.Wrong = "10";
             Sciense.Add(quetion5);
         }
         public void CreateScienseMed()
         {
-            Quetions quetions = new Quetions();
-            quetions.Quetion = "Что такое кровь";
-            quetions.Right = "Жидкость";
-            quetions.Wrong = "ПАсатижы";
-            Med.Add(quetions);
+            Quetions quetions1 = new Quetions();
+            quetions1.Quetion = "Что такое кровь";
+            quetions1.Right = "Жидкость";
+            quetions1.Wrong = "ПАсатижы";
+            Med.Add(quetions1);
 
-            quetions.Quetion = "Где растут пальцы";
-            quetions.Right = "На ноге";
-            quetions.Wrong = "На руке";
-            Med.Add(quetions);
+            Quetions quetions2 = new Quetions();
+            quetions2.Quetion = "Где растут пальцы";
+            quetions2.Right = "На ноге";
+            quetions2.Wrong = "На руке";
+            Med.Add(quetions2);
 
-            quetions.Quetion = "Где растут ногти";
-            quetions.Right = "Пальцы";
-            quetions.Wrong = "Серега";
-            Med.Add(quetions);
+            Quetions quetions3 = new Quetions();
+            quetions3.Quetion = "Где растут ногти";
+            quetions3.Right = "Пальцы";
+            quetions3.Wrong = "Серега";
+            Med.Add(quetions3);
 
-            quetions.Quetion = "Кол-во хромосом";
-            quetions.Right = "46";
-            quetions.Wrong = "47";
-            Med.Add(quetions);
+            Quetions quetions4 = new Quetions();
+            quetions4.Quetion = "Кол-во хромосом";
+            quetions4.Right = "46";
+            quetions4.Wrong = "47";
+            Med.Add(quetions4);
 
-            quetions.Quetion = "Глаза";
-            quetions.Right = "Да";
-            quetions.Wrong = "Нет";
-            Med.Add(quetions);
+            Quetions quetions5 = new Quetions();
+            quetions5.Quetion = "Глаза";
+            quetions5.Right = "Да";
+            quetions5.Wrong = "Нет";
+            Med.Add(quetions5);
 
-            quetions.Quetion = "Сердце качает";
-            quetions.Right = "кровь";
-            quetions.Wrong = "Бит";
-            Med.Add(quetions);
+            Quetions quetions6 = new Quetions();
+            quetions6.Quetion = "Сердце качает";
+            quetions6.Right = "кровь";
+            quetions6.Wrong = "Бит";
+            Med.Add(quetions6);
         }
         public void CreateScienseIt()
         {
@@ -90,30 +95,35 @@ namespace Popovv
             quetions.Wrong = "Нет";
             It.Add(quetions);
 
-            quetions.Quetion = "C++ это";
-            quetions.Right = "Язык";
-            quetions.Wrong = "клавиатура";
-            It.Add(quetions);
+            Quetions quetions1 = new Quetions();
+            quetions1.Quetion = "C++ это";
+            quetions1.Right = "Язык";
+            quetions1.Wrong = "клавиатура";
+            It.Add(quetions1);
 
-            quetions.Quetion = "Где стоит процессор";
-            quetions.Right = "в сокете";
-            quetions.Wrong = "в жопе";
-            It.Add(quetions);
+            Quetions quetions2 = new Quetions();
+            quetions2.Quetion = "Где стоит процессор";
+            quetions2.Right = "в сокете";
+            quetions2.Wrong = "в жопе";
+            It.Add(quetions2);
 
-            quetions.Quetion = "видеокарта это";
-            quetions.Right = "Карта";
-            quetions.Wrong = "Видео";
-            It.Add(quetions);
+            Quetions quetions3 = new Quetions();
+            quetions3.Quetion = "видеокарта это";
+            quetions3.Right = "Карта";
+            quetions3.Wrong = "Видео";
+            It.Add(quetions3);
 
-            quetions.Quetion = "Програмист это";
-            quetions.Right = "Сверхразум";
-            quetions.Wrong = "Дизайнер";
-            It.Add(quetions);
+            Quetions quetions4 = new Quetions();
+            quetions4.Quetion = "Програмист это";
+            quetions4.Right = "Сверхразум";
+            quetions4.Wrong = "Дизайнер";
+            It.Add(quetions4);
 
-            quetions.Quetion = "Что быстрее";
-            quetions.Right = "SSD";
-            quetions.Wrong = "HDD";
-            It.Add(quetions);
+            Quetions quetions5 = new Quetions();
+            quetions5.Quetion = "Что быстрее";
+            quetions5.Right = "SSD";
+            quetions5.Wrong = "HDD";
+            It.Add(quetions5);
         }
     }
 }
