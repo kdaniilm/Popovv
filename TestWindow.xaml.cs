@@ -19,20 +19,66 @@ namespace Popovv
     /// </summary>
     public partial class TestWindow : Window
     {
+        Test test = new Test();
+        int i = 0;
+        string x = string.Empty;
         public TestWindow(string TestClass)
         {
             InitializeComponent();
-            ImageSourceConverter converter = new ImageSourceConverter();
-            //ImageImg.Source = ((ImageSource)converter.ConvertFromString("Resources/"+ TestClass +".jpg"));
+            switch (TestClass)
+            {
+                case ("science"):
+                    x = "science";
+                    TextTb.Text = test.Sciense[i].Quetion;
+                    Button1.Content = test.Sciense[i].Right;
+                    Button1.Content = test.Sciense[i].Wrong;
+                    break;
+                case ("med"):
+                    x = "med";
+                    TextTb.Text = test.Med[i].Quetion;
+                    Button1.Content = test.Med[i].Right;
+                    Button1.Content = test.Med[i].Wrong;
+                    break;
+                case ("it"):
+                    TextTb.Text = test.It[i].Quetion;
+                    Button1.Content = test.It[i].Right;
+                    Button1.Content = test.It[i].Wrong;
+                    break;
+            }
         }
         private void Button1_Click(object sender, RoutedEventArgs e)
         {
-
+            MessageBox.Show("True");
+            i++;
+            X(x, i);
         }
 
         private void Button2_Click(object sender, RoutedEventArgs e)
         {
-
+            MessageBox.Show("False");
+            i++;
+            
+        }
+        private void X(string TestClass, int i)
+        {
+            switch (TestClass)
+            {
+                case ("science"):
+                    TextTb.Text = test.Sciense[i].Quetion;
+                    Button1.Content = test.Sciense[i].Right;
+                    Button1.Content = test.Sciense[i].Wrong;
+                    break;
+                case ("med"):
+                    TextTb.Text = test.Med[i].Quetion;
+                    Button1.Content = test.Med[i].Right;
+                    Button1.Content = test.Med[i].Wrong;
+                    break;
+                case ("it"):
+                    TextTb.Text = test.It[i].Quetion;
+                    Button1.Content = test.It[i].Right;
+                    Button1.Content = test.It[i].Wrong;
+                    break;
+            }
         }
     }
 }
