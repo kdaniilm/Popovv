@@ -23,8 +23,11 @@ namespace Popovv
         {
             InitializeComponent();
             ImageSourceConverter converter = new ImageSourceConverter();
+            
             //ImageImg.Source = ((ImageSource)converter.ConvertFromString("Resources/"+ TestClass +".jpg"));
         }
+
+        
         private void Button1_Click(object sender, RoutedEventArgs e)
         {
 
