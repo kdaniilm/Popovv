@@ -5,10 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Popovv"
         mc:Ignorable="d"
-        Title="TestWindow" Height="500" Width="500">
+        Title="TestWindow" Height="500" Width="500" WindowStyle="ToolWindow">
     <Grid>
+
         <TextBlock Name="TextTb" Width="400" Height="50" Margin="10 200 10 10"/>
         <Button Name="Button1" Margin="0 400 200 0" Width="150" Height="50" Click="Button1_Click"/>
         <Button Name="Button2" Margin="200 400 0 0" Width="150" Height="50" Click="Button2_Click"/>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="421*"/>
+            <ColumnDefinition Width="71*"/>
+        </Grid.ColumnDefinitions>
+        <Image Name="ImageImg" Source="Resources/med.jpg" RenderOptions.BitmapScalingMode="HighQuality" Stretch="Fill" Width="200" Height="200" Margin="146,60,75.182,209" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Name="TextTb" Width="400" Height="50" Margin="46,304,46,115" Grid.ColumnSpan="2"/>
+        <Button Name="Button1" Margin="71,410,200.182,9" Width="150" Height="50" Click="Button1_Click"/>
+        <Button Name="Button2" Margin="271,410,0.182,9" Width="150" Height="50" Click="Button2_Click"/>
     </Grid>
 </Window>
