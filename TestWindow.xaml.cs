@@ -29,20 +29,24 @@ namespace Popovv
             {
                 case ("science"):
                     x = "science";
+                    test.CreateSciense();
                     TextTb.Text = test.Sciense[i].Quetion;
                     Button1.Content = test.Sciense[i].Right;
-                    Button1.Content = test.Sciense[i].Wrong;
+                    Button2.Content = test.Sciense[i].Wrong;
                     break;
                 case ("med"):
                     x = "med";
+                    test.CreateScienseMed();
                     TextTb.Text = test.Med[i].Quetion;
                     Button1.Content = test.Med[i].Right;
-                    Button1.Content = test.Med[i].Wrong;
+                    Button2.Content = test.Med[i].Wrong;
                     break;
                 case ("it"):
+                    x = "it";
+                    test.CreateScienseIt();
                     TextTb.Text = test.It[i].Quetion;
                     Button1.Content = test.It[i].Right;
-                    Button1.Content = test.It[i].Wrong;
+                    Button2.Content = test.It[i].Wrong;
                     break;
             }
         }
@@ -57,26 +61,27 @@ namespace Popovv
         {
             MessageBox.Show("False");
             i++;
-            
+            X(x, i);
         }
         private void X(string TestClass, int i)
         {
             switch (TestClass)
             {
                 case ("science"):
+                    i++;
                     TextTb.Text = test.Sciense[i].Quetion;
                     Button1.Content = test.Sciense[i].Right;
-                    Button1.Content = test.Sciense[i].Wrong;
+                    Button2.Content = test.Sciense[i].Wrong;
                     break;
                 case ("med"):
                     TextTb.Text = test.Med[i].Quetion;
                     Button1.Content = test.Med[i].Right;
-                    Button1.Content = test.Med[i].Wrong;
+                    Button2.Content = test.Med[i].Wrong;
                     break;
                 case ("it"):
                     TextTb.Text = test.It[i].Quetion;
                     Button1.Content = test.It[i].Right;
-                    Button1.Content = test.It[i].Wrong;
+                    Button2.Content = test.It[i].Wrong;
                     break;
             }
         }

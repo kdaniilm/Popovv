@@ -28,3 +28,20 @@ C:\Users\38066\Documents\GitHub\Popovv\obj\Debug\Popovv.exe
 C:\Users\38066\Documents\GitHub\Popovv\obj\Debug\Popovv.pdb
 C:\Users\38066\Documents\GitHub\Popovv\obj\Debug\TestWindow.g.cs
 C:\Users\38066\Documents\GitHub\Popovv\obj\Debug\TestWindow.baml
+C:\Users\kdani\OneDrive\Рабочий стол\02.09.2020(Git)\Popovv\bin\Debug\Popovv.exe.config
+C:\Users\kdani\OneDrive\Рабочий стол\02.09.2020(Git)\Popovv\bin\Debug\Popovv.exe
+C:\Users\kdani\OneDrive\Рабочий стол\02.09.2020(Git)\Popovv\bin\Debug\Popovv.pdb
+C:\Users\kdani\OneDrive\Рабочий стол\02.09.2020(Git)\Popovv\obj\Debug\Popovv.csprojAssemblyReference.cache
+C:\Users\kdani\OneDrive\Рабочий стол\02.09.2020(Git)\Popovv\obj\Debug\MainWindow.g.cs
+C:\Users\kdani\OneDrive\Рабочий стол\02.09.2020(Git)\Popovv\obj\Debug\TestWindow.g.cs
+C:\Users\kdani\OneDrive\Рабочий стол\02.09.2020(Git)\Popovv\obj\Debug\App.g.cs
+C:\Users\kdani\OneDrive\Рабочий стол\02.09.2020(Git)\Popovv\obj\Debug\Popovv_MarkupCompile.cache
+C:\Users\kdani\OneDrive\Рабочий стол\02.09.2020(Git)\Popovv\obj\Debug\Popovv_MarkupCompile.lref
+C:\Users\kdani\OneDrive\Рабочий стол\02.09.2020(Git)\Popovv\obj\Debug\MainWindow.baml
+C:\Users\kdani\OneDrive\Рабочий стол\02.09.2020(Git)\Popovv\obj\Debug\TestWindow.baml
+C:\Users\kdani\OneDrive\Рабочий стол\02.09.2020(Git)\Popovv\obj\Debug\Popovv.g.resources
+C:\Users\kdani\OneDrive\Рабочий стол\02.09.2020(Git)\Popovv\obj\Debug\Popovv.Properties.Resources.resources
+C:\Users\kdani\OneDrive\Рабочий стол\02.09.2020(Git)\Popovv\obj\Debug\Popovv.csproj.GenerateResource.cache
+C:\Users\kdani\OneDrive\Рабочий стол\02.09.2020(Git)\Popovv\obj\Debug\Popovv.csproj.CoreCompileInputs.cache
+C:\Users\kdani\OneDrive\Рабочий стол\02.09.2020(Git)\Popovv\obj\Debug\Popovv.exe
+C:\Users\kdani\OneDrive\Рабочий стол\02.09.2020(Git)\Popovv\obj\Debug\Popovv.pdb

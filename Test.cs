@@ -11,7 +11,7 @@ namespace Popovv
         public List<Quetions> Sciense = new List<Quetions>();
         public List<Quetions> Med = new List<Quetions>();
         public List<Quetions> It = new List<Quetions>();
-        private void CreateSciense()
+        public void CreateSciense()
         {
             Quetions quetions = new Quetions();
             quetions.Quetion = "Фамилия Илона";
@@ -19,32 +19,37 @@ namespace Popovv
             quetions.Wrong = "Каск";
             Sciense.Add(quetions);
 
+            Quetions quetion1 = new Quetions();
             quetions.Quetion = "Имя Маска";
             quetions.Right = "Илон";
             quetions.Wrong = "Саня";
-            Sciense.Add(quetions);
+            Sciense.Add(quetion1);
 
+            Quetions quetions2 = new Quetions();
             quetions.Quetion = "Н. Тесла это...";
             quetions.Right = "Ученый";
             quetions.Wrong = "Жмых";
-            Sciense.Add(quetions);
+            Sciense.Add(quetions2);
 
+            Quetions quetions3 = new Quetions();
             quetions.Quetion = "Что такое V";
             quetions.Right = "Вольтаж";
             quetions.Wrong = "Растояние";
-            Sciense.Add(quetions);
+            Sciense.Add(quetions3);
 
+            Quetions quetion4 = new Quetions();
             quetions.Quetion = "2 + 2 = ";
             quetions.Right = "4";
             quetions.Wrong = "5";
-            Sciense.Add(quetions);
+            Sciense.Add(quetion4);
 
+            Quetions quetion5 = new Quetions();
             quetions.Quetion = "9 чи 10";
             quetions.Right = "9";
             quetions.Wrong = "10";
-            Sciense.Add(quetions);
+            Sciense.Add(quetion5);
         }
-        private void CreateScienseMed()
+        public void CreateScienseMed()
         {
             Quetions quetions = new Quetions();
             quetions.Quetion = "Что такое кровь";
@@ -77,7 +82,7 @@ namespace Popovv
             quetions.Wrong = "Бит";
             Med.Add(quetions);
         }
-        private void CreateScienseIt()
+        public void CreateScienseIt()
         {
             Quetions quetions = new Quetions();
             quetions.Quetion = "Что такое микрофон";
