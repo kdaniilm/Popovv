@@ -1,0 +1,15 @@
+
+*.ide-shm
+*.ide-wal
+.vs/Popovv/v16/.suo
+*.ide-wal
+bin/Debug/Popovv.exe
+bin/Debug/Popovv.pdb
+obj/Debug/DesignTimeResolveAssemblyReferences.cache
+obj/Debug/Popovv.csprojAssemblyReference.cache
+obj/Debug/Popovv.exe
+obj/Debug/Popovv.g.resources
+obj/Debug/Popovv.pdb
+obj/Debug/TestWindow.baml
+obj/Debug/TestWindow.g.cs
+obj/Debug/TestWindow.g.i.cs

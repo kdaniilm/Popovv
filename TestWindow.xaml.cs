@@ -49,7 +49,12 @@ namespace Popovv
                     Button2.Content = test.It[i].Wrong;
                     break;
             }
+            ImageSourceConverter converter = new ImageSourceConverter();
+            
+            //ImageImg.Source = ((ImageSource)converter.ConvertFromString("Resources/"+ TestClass +".jpg"));
         }
+
+        
         private void Button1_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("True");
